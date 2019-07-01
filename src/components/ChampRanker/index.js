@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Table from 'react-bootstrap/Table';
+
 import champsJSON from '../../data/champs.json';
 import ChampRow from './ChampRow';
 
@@ -14,8 +15,9 @@ class ChampRanker extends Component
 
   componentDidMount() 
   {
-    // TODO: Filter json
-    var champsToDisplay = champsJSON.map((champ) => {
+    var sortJsonArray = require('sort-json-array');
+    var champsToDisplay = sortJsonArray(champsJSON, 'cost_number', 'asc');
+    champsToDisplay = champsToDisplay.map((champ) => {
       return <ChampRow champ={champ} key={champ.slug_text}/>;
     });
 
@@ -30,7 +32,7 @@ class ChampRanker extends Component
       return <p>Loading...</p>
     }
     return (
-      <Table bordered variant='dark'>
+      <Table bordered size='sm' variant='dark'>
         <thead>
           <tr>
             <th>Name</th>
