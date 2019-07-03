@@ -31,21 +31,12 @@ class ChampRow extends Component
         break;
     }
 
-    var originText = champ.origin1_text;
-    if (champ.origin2_text !== "") {
-      originText += ", " + champ.origin2_text;
-    }
-    var classText = champ.class1_text;
-    if (champ.class2_text !== "") {
-      classText += ", " + champ.class2_text;
-    }
-
     return (
-      <tr style={{color:color, height:'5px'}}>
-        <td>{champ.name_text}</td>
-        <td>{champ.cost_number}</td>
-        <td>{originText}</td>
-        <td>{classText}</td>
+      <tr>
+        <td style={{color:color}}>{champ.name_text}</td>
+        <td style={{color:color}}>{champ.cost_number}</td>
+        <td>{champ.origin_text}</td>
+        <td>{champ.class_text}</td>
       </tr>
     );
   }

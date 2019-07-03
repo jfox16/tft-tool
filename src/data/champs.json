@@ -3,450 +3,380 @@
       "slug_text": "aatrox",
       "name_text": "Aatrox",
       "cost_number": "3",
-      "origin1_text": "Demon",
-      "origin2_text": "",
-      "class1_text": "Blademaster",
-      "class2_text": ""
+      "origin_text": "Demon",
+      "class_text": "Blademaster"
     },
     {
       "slug_text": "ahri",
       "name_text": "Ahri",
       "cost_number": "2",
-      "origin1_text": "Wild",
-      "origin2_text": "",
-      "class1_text": "Sorcerer",
-      "class2_text": ""
+      "origin_text": "Wild",
+      "class_text": "Sorcerer"
     },
     {
       "slug_text": "akali",
       "name_text": "Akali",
       "cost_number": "4",
-      "origin1_text": "Ninja",
-      "origin2_text": "",
-      "class1_text": "Assassin",
-      "class2_text": ""
+      "origin_text": "Ninja",
+      "class_text": "Assassin"
     },
     {
       "slug_text": "anivia",
       "name_text": "Anivia",
       "cost_number": "5",
-      "origin1_text": "Glacial",
-      "origin2_text": "",
-      "class1_text": "Elementalist",
-      "class2_text": ""
+      "origin_text": "Glacial",
+      "class_text": "Elementalist"
     },
     {
       "slug_text": "ashe",
       "name_text": "Ashe",
       "cost_number": "3",
-      "origin1_text": "Glacial",
-      "origin2_text": "",
-      "class1_text": "Ranger",
-      "class2_text": ""
+      "origin_text": "Glacial",
+      "class_text": "Ranger"
     },
     {
       "slug_text": "aurelion-sol",
       "name_text": "Aurelion Sol",
       "cost_number": "4",
-      "origin1_text": "Dragon",
-      "origin2_text": "",
-      "class1_text": "Sorcerer",
-      "class2_text": ""
+      "origin_text": "Dragon",
+      "class_text": "Sorcerer"
     },
     {
       "slug_text": "blitzcrank",
       "name_text": "Blitzcrank",
       "cost_number": "2",
-      "origin1_text": "Robot",
-      "origin2_text": "",
-      "class1_text": "Brawler",
-      "class2_text": ""
+      "origin_text": "Robot",
+      "class_text": "Brawler"
     },
     {
       "slug_text": "brand",
       "name_text": "Brand",
       "cost_number": "4",
-      "origin1_text": "Demon",
-      "origin2_text": "",
-      "class1_text": "Elementalist",
-      "class2_text": ""
+      "origin_text": "Demon",
+      "class_text": "Elementalist"
     },
     {
       "slug_text": "braum",
       "name_text": "Braum",
       "cost_number": "2",
-      "origin1_text": "Glacial",
-      "origin2_text": "",
-      "class1_text": "Guardian",
-      "class2_text": ""
+      "origin_text": "Glacial",
+      "class_text": "Guardian"
     },
     {
       "slug_text": "chogath",
       "name_text": "Cho'Gath",
       "cost_number": "4",
-      "origin1_text": "Void",
-      "origin2_text": "",
-      "class1_text": "Brawler",
-      "class2_text": ""
+      "origin_text": "Void",
+      "class_text": "Brawler"
     },
     {
       "slug_text": "darius",
       "name_text": "Darius",
       "cost_number": "1",
-      "origin1_text": "Imperial",
+      "origin_text": "Imperial",
       "origin2_text": "",
-      "class1_text": "Knight",
+      "class_text": "Knight",
       "class2_text": ""
     },
     {
       "slug_text": "draven",
       "name_text": "Draven",
       "cost_number": "4",
-      "origin1_text": "Imperial",
-      "origin2_text": "",
-      "class1_text": "Blademaster",
-      "class2_text": ""
+      "origin_text": "Imperial",
+      "class_text": "Blademaster"
     },
     {
       "slug_text": "elise",
       "name_text": "Elise",
       "cost_number": "2",
-      "origin1_text": "Demon",
-      "origin2_text": "",
-      "class1_text": "Shapeshifter",
-      "class2_text": ""
+      "origin_text": "Demon",
+      "class_text": "Shapeshifter"
     },
     {
       "slug_text": "evelynn",
       "name_text": "Evelynn",
       "cost_number": "3",
-      "origin1_text": "Demon",
-      "origin2_text": "",
-      "class1_text": "Assassin",
-      "class2_text": ""
+      "origin_text": "Demon",
+      "class_text": "Assassin"
     },
     {
       "slug_text": "fiora",
       "name_text": "Fiora",
       "cost_number": "1",
-      "origin1_text": "Noble",
-      "origin2_text": "",
-      "class1_text": "Blademaster",
-      "class2_text": ""
+      "origin_text": "Noble",
+      "class_text": "Blademaster"
     },
     {
       "slug_text": "gangplank",
       "name_text": "Gangplank",
       "cost_number": "3",
-      "origin1_text": "Pirate",
-      "origin2_text": "",
-      "class1_text": "Blademaster",
-      "class2_text": "Gunslinger"
+      "origin_text": "Pirate",
+      "class_text": "Blademaster"
+    },
+    {
+      "slug_text": "gangplank",
+      "name_text": "Gangplank",
+      "cost_number": "3",
+      "origin_text": "Pirate",
+      "class_text": "Gunslinger"
     },
     {
       "slug_text": "garen",
       "name_text": "Garen",
       "cost_number": "1",
-      "origin1_text": "Noble",
-      "origin2_text": "",
-      "class1_text": "Knight",
-      "class2_text": ""
+      "origin_text": "Noble",
+      "class_text": "Knight"
     },
     {
       "slug_text": "gnar",
       "name_text": "Gnar",
       "cost_number": "4",
-      "origin1_text": "Wild",
-      "origin2_text": "Yordle",
-      "class1_text": "Shapeshifter",
-      "class2_text": ""
+      "origin_text": "Wild",
+      "class_text": "Shapeshifter"
+    },
+    {
+      "slug_text": "gnar",
+      "name_text": "Gnar",
+      "cost_number": "4",
+      "origin_text": "Yordle",
+      "class_text": "Shapeshifter"
     },
     {
       "slug_text": "graves",
       "name_text": "Graves",
       "cost_number": "1",
-      "origin1_text": "Pirate",
-      "origin2_text": "",
-      "class1_text": "Gunslinger",
-      "class2_text": ""
+      "origin_text": "Pirate",
+      "class_text": "Gunslinger"
     },
     {
       "slug_text": "karthus",
       "name_text": "Karthus",
       "cost_number": "5",
-      "origin1_text": "Phantom",
-      "origin2_text": "",
-      "class1_text": "Sorcerer",
-      "class2_text": ""
+      "origin_text": "Phantom",
+      "class_text": "Sorcerer"
     },
     {
       "slug_text": "kassadin",
       "name_text": "Kassadin",
       "cost_number": "1",
-      "origin1_text": "Void",
-      "origin2_text": "",
-      "class1_text": "Sorcerer",
-      "class2_text": ""
+      "origin_text": "Void",
+      "class_text": "Sorcerer"
     },
     {
       "slug_text": "katarina",
       "name_text": "Katarina",
       "cost_number": "3",
-      "origin1_text": "Imperial",
-      "origin2_text": "",
-      "class1_text": "Assassin",
-      "class2_text": ""
+      "origin_text": "Imperial",
+      "class_text": "Assassin"
     },
     {
       "slug_text": "kayle",
       "name_text": "Kayle",
       "cost_number": "5",
-      "origin1_text": "Noble",
-      "origin2_text": "",
-      "class1_text": "Knight",
-      "class2_text": ""
+      "origin_text": "Noble",
+      "class_text": "Knight"
     },
     {
       "slug_text": "kennen",
       "name_text": "Kennen",
       "cost_number": "3",
-      "origin1_text": "Ninja",
-      "origin2_text": "Yordle",
-      "class1_text": "Elementalist",
-      "class2_text": ""
+      "origin_text": "Ninja",
+      "class_text": "Elementalist"
+    },
+    {
+      "slug_text": "kennen",
+      "name_text": "Kennen",
+      "cost_number": "3",
+      "origin_text": "Yordle",
+      "class_text": "Elementalist"
     },
     {
       "slug_text": "khazix",
       "name_text": "Kha'Zix",
       "cost_number": "1",
-      "origin1_text": "Void",
-      "origin2_text": "",
-      "class1_text": "Assassin",
-      "class2_text": ""
+      "origin_text": "Void",
+      "class_text": "Assassin"
     },
     {
       "slug_text": "kindred",
       "name_text": "Kindred",
       "cost_number": "4",
-      "origin1_text": "Phantom",
-      "origin2_text": "",
-      "class1_text": "Ranger",
-      "class2_text": ""
+      "origin_text": "Phantom",
+      "class_text": "Ranger"
     },
     {
       "slug_text": "leona",
       "name_text": "Leona",
       "cost_number": "4",
-      "origin1_text": "Noble",
-      "origin2_text": "",
-      "class1_text": "Guardian",
-      "class2_text": ""
+      "origin_text": "Noble",
+      "class_text": "Guardian"
     },
     {
       "slug_text": "lissandra",
       "name_text": "Lissandra",
       "cost_number": "2",
-      "origin1_text": "Glacial",
-      "origin2_text": "",
-      "class1_text": "Elementalist",
-      "class2_text": ""
+      "origin_text": "Glacial",
+      "class_text": "Elementalist"
     },
     {
       "slug_text": "lucian",
       "name_text": "Lucian",
       "cost_number": "2",
-      "origin1_text": "Noble",
-      "origin2_text": "",
-      "class1_text": "Gunslinger",
-      "class2_text": ""
+      "origin_text": "Noble",
+      "class_text": "Gunslinger"
     },
     {
       "slug_text": "lulu",
       "name_text": "Lulu",
       "cost_number": "2",
-      "origin1_text": "Yordle",
-      "origin2_text": "",
-      "class1_text": "Sorcerer",
-      "class2_text": ""
+      "origin_text": "Yordle",
+      "class_text": "Sorcerer"
     },
     {
       "slug_text": "miss-fortune",
       "name_text": "Miss Fortune",
       "cost_number": "5",
-      "origin1_text": "Pirate",
-      "origin2_text": "",
-      "class1_text": "Gunslinger",
-      "class2_text": ""
+      "origin_text": "Pirate",
+      "class_text": "Gunslinger"
     },
     {
       "slug_text": "mordekaiser",
       "name_text": "Mordekaiser",
       "cost_number": "1",
-      "origin1_text": "Phantom",
-      "origin2_text": "",
-      "class1_text": "Knight",
-      "class2_text": ""
+      "origin_text": "Phantom",
+      "class_text": "Knight"
     },
     {
       "slug_text": "morgana",
       "name_text": "Morgana",
       "cost_number": "3",
-      "origin1_text": "Demon",
-      "origin2_text": "",
-      "class1_text": "Sorcerer",
-      "class2_text": ""
+      "origin_text": "Demon",
+      "class_text": "Sorcerer"
     },
     {
       "slug_text": "nidalee",
       "name_text": "Nidalee",
       "cost_number": "1",
-      "origin1_text": "Wild",
-      "origin2_text": "",
-      "class1_text": "Shapeshifter",
-      "class2_text": ""
+      "origin_text": "Wild",
+      "class_text": "Shapeshifter"
     },
     {
       "slug_text": "poppy",
       "name_text": "Poppy",
       "cost_number": "3",
-      "origin1_text": "Yordle",
-      "origin2_text": "",
-      "class1_text": "Knight",
-      "class2_text": ""
+      "origin_text": "Yordle",
+      "class_text": "Knight"
     },
     {
       "slug_text": "pyke",
       "name_text": "Pyke",
       "cost_number": "2",
-      "origin1_text": "Pirate",
-      "origin2_text": "",
-      "class1_text": "Assassin",
-      "class2_text": ""
+      "origin_text": "Pirate",
+      "class_text": "Assassin"
     },
     {
       "slug_text": "reksai",
       "name_text": "Rek'Sai",
       "cost_number": "2",
-      "origin1_text": "Void",
-      "origin2_text": "",
-      "class1_text": "Brawler",
-      "class2_text": ""
+      "origin_text": "Void",
+      "class_text": "Brawler"
     },
     {
       "slug_text": "rengar",
       "name_text": "Rengar",
       "cost_number": "3",
-      "origin1_text": "Wild",
-      "origin2_text": "",
-      "class1_text": "Assassin",
-      "class2_text": ""
+      "origin_text": "Wild",
+      "class_text": "Assassin"
     },
     {
       "slug_text": "sejuani",
       "name_text": "Sejuani",
       "cost_number": "4",
-      "origin1_text": "Glacial",
-      "origin2_text": "",
-      "class1_text": "Knight",
-      "class2_text": ""
+      "origin_text": "Glacial",
+      "class_text": "Knight"
     },
     {
       "slug_text": "shen",
       "name_text": "Shen",
       "cost_number": "2",
-      "origin1_text": "Ninja",
-      "origin2_text": "",
-      "class1_text": "Blademaster",
-      "class2_text": ""
+      "origin_text": "Ninja",
+      "class_text": "Blademaster"
     },
     {
       "slug_text": "shyvana",
       "name_text": "Shyvana",
       "cost_number": "3",
-      "origin1_text": "Dragon",
-      "origin2_text": "",
-      "class1_text": "Shapeshifter",
-      "class2_text": ""
+      "origin_text": "Dragon",
+      "class_text": "Shapeshifter"
     },
     {
       "slug_text": "swain",
       "name_text": "Swain",
       "cost_number": "5",
-      "origin1_text": "Imperial",
-      "origin2_text": "Demon",
-      "class1_text": "Shapeshifter",
-      "class2_text": ""
+      "origin_text": "Imperial",
+      "class_text": "Shapeshifter"
+    },
+    {
+      "slug_text": "swain",
+      "name_text": "Swain",
+      "cost_number": "5",
+      "origin_text": "Demon",
+      "class_text": "Shapeshifter"
     },
     {
       "slug_text": "tristana",
       "name_text": "Tristana",
       "cost_number": "1",
-      "origin1_text": "Yordle",
-      "origin2_text": "",
-      "class1_text": "Gunslinger",
-      "class2_text": ""
+      "origin_text": "Yordle",
+      "class_text": "Gunslinger"
     },
     {
       "slug_text": "varus",
       "name_text": "Varus",
       "cost_number": "2",
-      "origin1_text": "Demon",
-      "origin2_text": "",
-      "class1_text": "Ranger",
-      "class2_text": ""
+      "origin_text": "Demon",
+      "class_text": "Ranger"
     },
     {
       "slug_text": "vayne",
       "name_text": "Vayne",
       "cost_number": "1",
-      "origin1_text": "Noble",
-      "origin2_text": "",
-      "class1_text": "Ranger",
-      "class2_text": ""
+      "origin_text": "Noble",
+      "class_text": "Ranger"
     },
     {
       "slug_text": "veigar",
       "name_text": "Veigar",
       "cost_number": "3",
-      "origin1_text": "Yordle",
-      "origin2_text": "",
-      "class1_text": "Sorcerer",
-      "class2_text": ""
+      "origin_text": "Yordle",
+      "class_text": "Sorcerer"
     },
     {
       "slug_text": "volibear",
       "name_text": "Volibear",
       "cost_number": "3",
-      "origin1_text": "Glacial",
-      "origin2_text": "",
-      "class1_text": "Brawler",
-      "class2_text": ""
+      "origin_text": "Glacial",
+      "class_text": "Brawler"
     },
     {
       "slug_text": "warwick",
       "name_text": "Warwick",
       "cost_number": "1",
-      "origin1_text": "Wild",
-      "origin2_text": "",
-      "class1_text": "Brawler",
-      "class2_text": ""
+      "origin_text": "Wild",
+      "class_text": "Brawler"
     },
     {
       "slug_text": "yasuo",
       "name_text": "Yasuo",
       "cost_number": "5",
-      "origin1_text": "Exile",
-      "origin2_text": "",
-      "class1_text": "Blademaster",
-      "class2_text": ""
+      "origin_text": "Exile",
+      "class_text": "Blademaster"
     },
     {
       "slug_text": "zed",
       "name_text": "Zed",
       "cost_number": "2",
-      "origin1_text": "Ninja",
-      "origin2_text": "",
-      "class1_text": "Assassin",
-      "class2_text": ""
+      "origin_text": "Ninja",
+      "class_text": "Assassin"
     }
    ]
