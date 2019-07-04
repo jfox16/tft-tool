@@ -10,11 +10,13 @@ class ChampRanker extends Component
     super(props);
     this.state = {
       champsToDisplay: null,
+      sortedBy: 'cost_number'
     }
     this.sortByName = this.sortByName.bind(this);
     this.sortByCost = this.sortByCost.bind(this);
     this.sortByOrigin = this.sortByOrigin.bind(this);
     this.sortByClass = this.sortByClass.bind(this);
+    this.sortBy = this.sortBy.bind(this);
   }
 
   componentDidMount() 
@@ -57,45 +59,99 @@ class ChampRanker extends Component
   }
 
   sortByName() {
-    // Sort by name
-    var champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
-      return a.name_text.localeCompare(b.name_text);
-    })
-    this.setState({
-      champsToDisplay: champsToDisplay
-    });
+    this.sortBy('name_text');
   }
 
   sortByCost() {
-    // Sort by cost
-    var champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
-      return a.cost_number - b.cost_number;
-    })
-    this.setState({
-      champsToDisplay: champsToDisplay
-    });
+    this.sortBy('cost_number');
   }
 
   sortByOrigin() {
-    // First sort by cost, then sort by origin
-    var champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
-      return a.cost_number - b.cost_number;
-    }).sort(function(a,b) {
-      return a.origin_text.localeCompare(b.origin_text);
-    })
-    this.setState({
-      champsToDisplay: champsToDisplay
-    });
+    this.sortBy('origin_text');
   }
+
   sortByClass() {
-    // First sort by cost, then sort by class
-    var champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
-      return a.cost_number - b.cost_number;
-    }).sort(function(a,b) {
-      return a.class_text.localeCompare(b.class_text);
-    })
+    this.sortBy('class_text');
+  }
+
+  sortBy(field_to_sort_by) 
+  {
+    var champsToDisplay;
+    var sortedBy = '';
+
+    switch(field_to_sort_by) 
+    {
+      case 'name_text':
+        if (this.state.sortedBy !== 'name_text') {
+          champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
+            return a.name_text.localeCompare(b.name_text);
+          });
+          sortedBy = 'name_text';
+        }
+        else {
+          champsToDisplay = this.state.champsToDisplay.sort(function(b,a) {
+            return a.name_text.localeCompare(b.name_text);
+          });
+        }
+        break;
+
+      case 'cost_number':
+        if (this.state.sortedBy !== 'cost_number') {
+          champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
+            return a.cost_number - b.cost_number;
+          });
+          sortedBy = 'cost_number';
+        }
+        else {
+          champsToDisplay = this.state.champsToDisplay.sort(function(b,a) {
+            return a.cost_number - b.cost_number;
+          });
+        }
+        break;
+
+      case 'origin_text':
+        if (this.state.sortedBy !== 'origin_text') {
+          champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
+            return a.cost_number - b.cost_number;
+          }).sort(function(a,b) {
+            return a.origin_text.localeCompare(b.origin_text);
+          });
+          sortedBy = 'origin_text';
+        }
+        else {
+          champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
+            return a.cost_number - b.cost_number;
+          }).sort(function(b,a) {
+            return a.origin_text.localeCompare(b.origin_text);
+          });
+        }
+        break;
+
+      case 'class_text':
+        if (this.state.sortedBy !== 'class_text') {
+          champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
+            return a.cost_number - b.cost_number;
+          }).sort(function(a,b) {
+            return a.class_text.localeCompare(b.class_text);
+          });
+          sortedBy = 'class_text';
+        }
+        else {
+          champsToDisplay = this.state.champsToDisplay.sort(function(a,b) {
+            return a.cost_number - b.cost_number;
+          }).sort(function(b,a) {
+            return a.class_text.localeCompare(b.class_text);
+          });
+        }
+        break;
+
+      default:
+        break;
+    }
+
     this.setState({
-      champsToDisplay: champsToDisplay
+      champsToDisplay: champsToDisplay,
+      sortedBy: sortedBy
     });
   }
 }
