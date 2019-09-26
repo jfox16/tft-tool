@@ -1,3 +1,6 @@
+# TFT Tool
+## [Use it here]https://cranky-ritchie-25e8df.netlify.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
